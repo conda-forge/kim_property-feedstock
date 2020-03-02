@@ -33,7 +33,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-kim_property-green.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kim-property-green.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) |
 
 Installing kim-property
 =======================
