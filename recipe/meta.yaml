@@ -24,8 +24,8 @@ requirements:
 
 test:
   imports:
-    - kim-edn
-    - kim-property
+    - kim_edn
+    - kim_property
 
 about:
   home: https://github.com/openkim/kim-property
