@@ -1,5 +1,5 @@
-{% set name = "kim_property" %}
-{% set version = "1.0.1" %}
+{% set name = "kim-property" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5dfc7ecf3e61db914266950d7e26fb55518d09639d06266614a4f8e431fbc031 
+  sha256: 91ab427d2df47e7aa95d795328e3cbc668964fa5bf1e61634e5284495230211b
 
 build:
   noarch: python
@@ -20,12 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - kim_edn
+    - kim-edn
 
 test:
   imports:
-    - kim_edn
-    - kim_property
+    - kim-edn
+    - kim-property
 
 about:
   home: https://github.com/openkim/kim-property
