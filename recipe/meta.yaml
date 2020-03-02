@@ -1,18 +1,18 @@
 {% set name = "kim_property" %}
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5dfc7ecf3e61db914266950d7e26fb55518d09639d06266614a4f8e431fbc031 
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
+  sha256: 91ab427d2df47e7aa95d795328e3cbc668964fa5bf1e61634e5284495230211b
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: CDDL-1.0
   license_family: OTHER
   license_file: LICENSE.CDDL
-  summary: 'KIM-PROPERTY utility module'
+  summary: KIM-PROPERTY utility module
   description: |
     KIM-PROPERTY utility module.
     The objective is to make it as easy as possible to convert a script (for
