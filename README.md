@@ -1,4 +1,4 @@
-About kim_property
+About kim-property
 ==================
 
 Home: https://github.com/openkim/kim-property
@@ -33,27 +33,27 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-kim_property-green.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim_property.svg)](https://anaconda.org/conda-forge/kim_property) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kim-property-green.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) |
 
-Installing kim_property
+Installing kim-property
 =======================
 
-Installing `kim_property` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `kim-property` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `kim_property` can be installed with:
+Once the `conda-forge` channel has been enabled, `kim-property` can be installed with:
 
 ```
-conda install kim_property
+conda install kim-property
 ```
 
-It is possible to list all of the versions of `kim_property` available on your platform with:
+It is possible to list all of the versions of `kim-property` available on your platform with:
 
 ```
-conda search kim_property --channel conda-forge
+conda search kim-property --channel conda-forge
 ```
 
 
@@ -98,7 +98,7 @@ Terminology
 Updating kim_property-feedstock
 ===============================
 
-If you would like to improve the kim_property recipe or build a new
+If you would like to improve the kim-property recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
@@ -121,4 +121,3 @@ Feedstock Maintainers
 =====================
 
 * [@yafshar](https://github.com/yafshar/)
-
