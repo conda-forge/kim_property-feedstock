@@ -1,5 +1,5 @@
-{% set name = "kim_property" %}
-{% set version = "1.0.1" %}
+{% set name = "kim-property" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5dfc7ecf3e61db914266950d7e26fb55518d09639d06266614a4f8e431fbc031 
+  sha256: 413198f9c1f8014b367eb6339cec10de7b874afa990b439c519eefa360496043
 
 build:
   noarch: python
