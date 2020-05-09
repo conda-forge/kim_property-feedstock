@@ -33,7 +33,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-kim-property-green.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kim--property-green.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kim-property.svg)](https://anaconda.org/conda-forge/kim-property) |
 
 Installing kim-property
 =======================
@@ -95,7 +95,7 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating kim_property-feedstock
+Updating kim-property-feedstock
 ===============================
 
 If you would like to improve the kim-property recipe or build a new
@@ -105,7 +105,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/kim_property-feedstock are
+Note that all branches in the conda-forge/kim-property-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -121,3 +121,4 @@ Feedstock Maintainers
 =====================
 
 * [@yafshar](https://github.com/yafshar/)
+
