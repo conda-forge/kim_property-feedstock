@@ -5,7 +5,7 @@ Home: https://github.com/openkim/kim-property
 
 Package license: CDDL-1.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: KIM-PROPERTY utility module
 
