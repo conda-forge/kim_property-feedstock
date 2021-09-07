@@ -3,7 +3,7 @@ About kim-property
 
 Home: https://github.com/openkim/kim-property
 
-Package license: CDDL-1.0
+Package license: LGPL-2.1-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kim_property-feedstock/blob/master/LICENSE.txt)
 
