@@ -1,5 +1,5 @@
 {% set name = "kim-property" %}
-{% set version = "2.5.7" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,20 +7,22 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa7cf6d56a296c65abae633f90f77912b773ce1744c60a326f7468cd6db1eb35
+  sha256: 031cf315171e00607c2274e84cedb4169ffdd246bf6005653fc34ed626e5eba5
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
+    - versioneer >=0.29
+    - kim-edn >=1.4.1
   run:
-    - python >=3.6
-    - kim-edn
+    - python >=3.8
+    - kim-edn >=1.4.1
 
 test:
   imports:
