@@ -19,6 +19,7 @@ requirements:
     - python >=3.8
     - pip
     - versioneer >=0.29
+    - kim-edn >=1.4.1
   run:
     - python >=3.8
     - kim-edn >=1.4.1
