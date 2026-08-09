@@ -7,12 +7,12 @@ Home: https://github.com/openkim/kim-property
 
 Package license: LGPL-2.1-or-later
 
-Summary: KIM-PROPERTY utility module
+Summary: Create, modify, validate, and serialize OpenKIM Property Instances
 
-KIM-PROPERTY utility module.
-The objective is to make it as easy as possible to convert a script (for
-example a [LAMMPS](https://lammps.sandia.gov/) script) that computes a
-property to a KIM Test.
+kim-property provides utilities to create, destroy, modify, remove fields
+from, validate, and serialize OpenKIM Property Instances. It is intended to
+simplify converting scripts that compute material properties into KIM Tests.
+kim-property supports Python 3.10 and later.
 
 
 Current build status
